@@ -1,0 +1,98 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+}
+
+#app {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#taskInput {
+    align-items: center;
+    width: 300px; 
+    height: 40px; /
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(241, 2, 2, 0.1); 
+    margin-bottom: 10px;
+    transition: box-shadow 0.9s;
+}
+
+#taskInput:focus {
+    box-shadow: 0 4px 8px rgba(41, 9, 9, 0.2); /* Change box shadow on focus */
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+#addButton {
+    background-color: #3498db;
+    color: #fff;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#addButton:hover {
+    background-color: #2ecc71;
+}
+
+#deleteButton {
+    background-color: #d3731a;
+    color: #fff;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#deleteButton:hover {
+    background-color: #ff0000;
+}
+
+#updateButton {
+    background-color: #6a1ad3;
+    color: #fff;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#updateButton:hover {
+    background-color: #fffb00;
+    color: #000000;
+}
+
+#completeButton {
+    background-color: #1ad386;
+    color: #fff;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#completeButton:hover {
+    background-color: #10dd09;
+}
